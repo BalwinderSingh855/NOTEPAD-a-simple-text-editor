@@ -98,7 +98,7 @@ families = ['Terminal', 'Modern', 'Script', 'Courier', 'Arial', 'Calibri', 'Camb
 'Georgia', 'MS Gothic', 'SimSun', 'Tahoma', 'Times New Roman', 'Verdana', 'Wingdings']
 font_family = StringVar()
 font_family_drop = tkinter.OptionMenu(menu_frame, font_family, *families,command=change_font)
-font_family.set('Terminal')
+font_family.set('Modern')
 #Set the width so it will fit "times new roman" and remain constant
 font_family_drop.config(width=16)
 font_family_drop.grid(row=0, column=4, padx=5, pady=5)
